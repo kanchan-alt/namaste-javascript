@@ -45,6 +45,7 @@ const users =
 
 
     const firstNames = users.filter((user)=> user.age < 30).map(user => user.firstName)
+    //function chain
 
     console.log(firstNames);
 
